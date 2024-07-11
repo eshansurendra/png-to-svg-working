@@ -1,10 +1,10 @@
 DATA_PATH="/kaggle/working/svgtopng_dataset/custom-dataset.json"
 IMAGE_PATH="/kaggle/working/svgtopng_dataset/images"
 MODEL_MAX_LENGTH=3072
-OUTPUT_DIR="/mnt/data/sata/yinghu/checkpoints/llava_factory/custom-finetune-TinyLLaVA-Phi-2-SigLIP-3.1B-lora"
+OUTPUT_DIR="/kaggle/working/custom-finetune-TinyLLaVA-Phi-2-SigLIP-3.1B-lora"
 
-deepspeed --include localhost:0,1 --master_port 29501 tinyllava/train/custom_finetune.py \
-    --deepspeed ./scripts/zero2.json \
+deepspeed --include localhost:0,1 --master_port 29501 /kaggle/working/TinyLLaVA_Factory/tinyllava/train/custom_finetune.py \
+    --deepspeed /kaggle/working/TinyLLaVA_Factory/scripts/zero2.json \
     --data_path  $DATA_PATH \
     --image_folder $IMAGE_PATH \
     --is_multimodal True \
