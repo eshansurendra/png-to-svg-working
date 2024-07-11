@@ -66,6 +66,7 @@ Published that dataset for further ease of usage.
 
 ### Finetune TinyLLaVA using LORA
 
-
+Used kaggle notebooks to finetune but the attempt failed with GPU run out of memory 
+Then tried with TPU memory is sufficient but the DeepSpeed currently not supporting for TPU
 
 
