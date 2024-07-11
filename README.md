@@ -60,3 +60,12 @@ For our dataset
 The conversion was done using a Kaggle notebook since colab faced some memory limitations and repeatedly failed to execute.
 
 Kaggle notebook link - https://www.kaggle.com/code/eshansurendra/tinyllava-custom-datasets-preparation/edit
+
+Published that dataset for further ease of usage.
+
+
+### Finetune TinyLLaVA using LORA
+
+
+
+
