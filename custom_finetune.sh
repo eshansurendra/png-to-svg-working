@@ -11,7 +11,6 @@ deepspeed --include /device:TPU:0,/device:TPU:1,/device:TPU:2,/device:TPU:3,/dev
     --conv_version phi \
     --mm_vision_select_layer -2 \
     --image_aspect_ratio square \
-    --fp16 True \
     --training_recipe lora \
     --tune_type_llm lora \
     --tune_type_vision_tower frozen \
