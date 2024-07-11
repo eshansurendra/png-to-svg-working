@@ -1,5 +1,5 @@
-DATA_PATH="/home/ai/data/llava/dataset/text_files/llava_v1_5_mix665k.json"
-IMAGE_PATH="/home/ai/data/llava/dataset"
+DATA_PATH="/kaggle/working/svgtopng_dataset/custom-dataset.json"
+IMAGE_PATH="/kaggle/working/svgtopng_dataset/images"
 MODEL_MAX_LENGTH=3072
 OUTPUT_DIR="/mnt/data/sata/yinghu/checkpoints/llava_factory/custom-finetune-TinyLLaVA-Phi-2-SigLIP-3.1B-lora"
 
